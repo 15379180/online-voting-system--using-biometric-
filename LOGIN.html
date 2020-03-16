@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-VOTING LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="LOGIN.css">
+	<h1><font color="white">ONLINE VOTING LOGIN</font></h1>
+</head>
+<body bgcolor="black">
+
+	<div class="container">
+
+		<form action="LOGIN.css" action="{{ url_for('result') }}" method= "POST">
+			
+			<label for="Username" ><font color="brown" size="5">Username (YOUR AADHAR NO.)</font></label>
+			<input type="number" id="Username" name="Username" placeholder="Enter your Aadhar number..."><br><br>
+			
+			<label for="password"><font color="brown" size="5">Password</font></label>
+			<input type="password" id="password" name="password" placeholder="Enter your password..."><br><br><br>
+
+			<input type="submit" value="Submit" ><br>
+		</form>
+
+</body>
+</html>
